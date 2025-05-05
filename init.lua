@@ -580,13 +580,13 @@ require('lazy').setup({
         --
         -- But for many setups, the LSP (`tsserver`) will work just fine
         ts_ls = {},
-        denols = {
-          -- on_attach = on_attach,
-          -- root_dir = function(fname)
-          --   return nvim_lsp.util.root_pattern("edge-functions")(fname) or
-          --          nvim_lsp.util.find_git_ancestor(fname)
-          -- end
-        },
+        --denols = {
+        -- on_attach = on_attach,
+        -- root_dir = function(fname)
+        --   return nvim_lsp.util.root_pattern("edge-functions")(fname) or
+        --          nvim_lsp.util.find_git_ancestor(fname)
+        -- end
+        --},
         --
 
         lua_ls = {
@@ -678,16 +678,16 @@ require('lazy').setup({
         --
         -- You can use a sub-list to tell conform to run *until* a formatter
         -- is found.
-        javascript = { { "prettierd", "prettier" } },
-        typescript = { { "prettierd", "prettier" } },
-        javascriptreact = { { "prettierd", "prettier" } },
-        typescriptreact = { { "prettierd", "prettier" } },
-        css = { { "prettierd", "prettier" } },
-        html = { { "prettierd", "prettier" } },
-        json = { { "prettierd", "prettier" } },
-        yaml = { { "prettierd", "prettier" } },
-        markdown = { { "prettierd", "prettier" } },
-        graphql = { { "prettierd", "prettier" } },
+        javascript = { { 'prettierd', 'prettier' } },
+        typescript = { { 'prettierd', 'prettier' } },
+        javascriptreact = { { 'prettierd', 'prettier' } },
+        typescriptreact = { { 'prettierd', 'prettier' } },
+        css = { { 'prettierd', 'prettier' } },
+        html = { { 'prettierd', 'prettier' } },
+        json = { { 'prettierd', 'prettier' } },
+        yaml = { { 'prettierd', 'prettier' } },
+        markdown = { { 'prettierd', 'prettier' } },
+        graphql = { { 'prettierd', 'prettier' } },
       },
     },
   },
